@@ -1,0 +1,30 @@
+/*
+    File: description.ext
+    Author: Doc @ DemonInc Games
+    Date: 30 Sept, 2024
+    Last Update: 1 Oct, 2024
+
+    Description:
+        Information about the author, mission name, respawn and more very general settings.
+        This overrides corresponding settings which are made in the sqm via eden editor.
+
+    Reference from where most descriptions are from:
+        https://community.bistudio.com/wiki/Description.ext
+*/
+
+/*
+    ----- General -----
+*/
+
+// Gametype and min/max players
+class Header {
+    gameType = "RPG";
+    minPlayers = 1;
+    maxPlayers = 18;
+};
+
+// Name of Mission author(s) and contributors. Obviously you can only add and not (!) remove someone.
+author 			= "Doc_Demoninc";
+onLoadName		= "Hellhounds";
+
+respawnOnStart = -1;
