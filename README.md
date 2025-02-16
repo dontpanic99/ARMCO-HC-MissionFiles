@@ -1,2 +1,2 @@
 # ARMCO-HC-MissionFiles
-Mission files for amrco HQ
+Mission files for ARMSEC HQ
